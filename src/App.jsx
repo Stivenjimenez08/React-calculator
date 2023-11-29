@@ -14,7 +14,12 @@ export const App =()=> {
     setResult('')
   }
   const handleEqual = () => {
-    setResult(eval(result))
+    try {
+      setResult(eval(result))
+      
+    } catch (error) {
+      setResult('Error')
+    }
   }
   const handlePercentage = () => {
     
