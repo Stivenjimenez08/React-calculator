@@ -44,6 +44,8 @@
   width: 3rem;
   height: 3rem;
   margin:.3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 #btn{
   background: #BD2A2E;
